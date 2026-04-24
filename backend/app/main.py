@@ -108,7 +108,7 @@ async def health_check():
         "service": "DocuMind API",
         "version": "2.0.0",
         "features": {
-            "llm": "Groq (Llama 3)",
+            "llm": "Groq (Llama 3.1)",
             "embeddings": "SentenceTransformers",
             "vector_db": "Chroma",
             "supported_formats": ["PDF", "TXT", "DOCX"]
