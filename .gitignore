@@ -1,0 +1,31 @@
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Python
+backend/venv/
+backend/.env
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+build/
+.eslintcache
+
+# Project specific
+backend/data/
+backend/logs/
+backend/temp/
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
